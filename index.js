@@ -1,5 +1,5 @@
 var run = require('./run')
-
+var exec = require('./cmd')
 function daemonReload() {
     return run("daemon-reload")
 }
@@ -42,6 +42,7 @@ function stop(serviceName) {
 }
 
 module.exports.run = run
+module.exports.exec = exec
 module.exports.daemonReload = daemonReload
 module.exports.disable = disable
 module.exports.enable = enable

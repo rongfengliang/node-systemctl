@@ -1,6 +1,6 @@
 {
   "name": "@dalongrong/systemctl",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Allows you to control system services using the systemctl command easily and asynchronously",
   "repository": "rongfengliang/node-systemctl",
   "keywords": [
