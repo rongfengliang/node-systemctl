@@ -1,0 +1,26 @@
+{
+  "name": "@dalongrong/systemctl",
+  "version": "0.2.3",
+  "description": "Allows you to control system services using the systemctl command easily and asynchronously",
+  "repository": "rongfengliang/node-systemctl",
+  "keywords": [
+    "Systemctl",
+    "Systemd",
+    "Arch",
+    "Archlinux"
+  ],
+  "author": "rongfengliang",
+  "license": "MIT",
+
+  "homepage": "https://github.com/rongfengliang/node-systemctl",
+  "bugs": {
+    "url": "https://github.com/rongfengliang/node-systemctl/issues"
+  },
+  "contributors": [
+    "rongfengliang"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
