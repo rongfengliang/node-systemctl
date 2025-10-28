@@ -8,6 +8,11 @@ function disable(serviceName) {
     return run("disable", serviceName)
 }
 
+
+function status(serviceName) {
+    return run("status", serviceName)
+}
+
 function enable(serviceName) {
     return run("enable", serviceName)
 }
@@ -44,3 +49,4 @@ module.exports.isEnabled = isEnabled
 module.exports.restart = restart
 module.exports.start = start
 module.exports.stop = stop
+module.exports.status = status
